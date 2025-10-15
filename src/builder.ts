@@ -1,5 +1,5 @@
-import { PizzaBuilder } from './classes/pizza/pizza-builder'
-import { PizzaDirector } from './classes/pizza/pizza-director'
+import { PizzaBuilder } from './classes/builder/pizza-builder'
+import { PizzaDirector } from './classes/builder/pizza-director'
 
 const pizzaBuilder = new PizzaBuilder()
 const pizzaDirector = new PizzaDirector(pizzaBuilder)

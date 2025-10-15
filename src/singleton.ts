@@ -1,4 +1,4 @@
-import { SingletonLogger } from './classes/logger'
+import { SingletonLogger } from './classes/singleton/logger'
 
 const logger1 = SingletonLogger.getInstance()
 const logger2 = SingletonLogger.getInstance()

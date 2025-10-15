@@ -1,4 +1,4 @@
-import type { Transport } from '../transport/transport'
+import type { Transport } from './transport'
 
 export abstract class Logistic {
   abstract makeTransport(): Transport

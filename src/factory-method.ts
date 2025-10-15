@@ -1,6 +1,6 @@
-import { LandLogistic } from './classes/logistic/land-logistic'
-import type { Logistic } from './classes/logistic/logistic'
-import { MaritimeLogistic } from './classes/logistic/maritime-logistic'
+import { LandLogistic } from './classes/factory-method/land-logistic'
+import type { Logistic } from './classes/factory-method/logistic'
+import { MaritimeLogistic } from './classes/factory-method/maritime-logistic'
 
 let logistc: Logistic
 
