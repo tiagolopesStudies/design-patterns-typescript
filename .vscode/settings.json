@@ -8,5 +8,8 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.biome": "explicit"
+  },
+  "code-runner.executorMap": {
+    "typescript": "npx tsx"
   }
 }
